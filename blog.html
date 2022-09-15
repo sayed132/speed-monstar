@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafsan's Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="container my-5">
+    <div class="card text-bg-primary mb-3" style="max-width: 100%;">
+        <div class="card-header">Q1 Answer</div>
+        <div class="card-body">
+            <h5 class="card-title text-uppercase">difference in local storage and session storage</h5> <br>
+            <p class="card-text">sessionStorage is similar to localStorage ; the difference is that <br> <strong>while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.</strong> Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.</p>
+        </div>
+    </div>
+    <div class="card text-bg-success mb-3" style="max-width: 100%;">
+        <div class="card-header">Q2 Answer</div>
+        <div class="card-body">
+            <h5 class="card-title text-uppercase">difference between global scope and block scope</h5><br>
+            <p class="card-text"><strong>Global Scop</strong> <br> The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable. <br><br><strong>Block Scop</strong> <br>Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.</p>
+
+            <p><strong>What is difference between global scope and block scope?</strong><br>In a browser environment, the global scope is controlled by the window object while in Node. js, it's controlled by the global object. Block scopes are what you get when you use if statements, for statements, and the like.</p>
+        </div>
+    </div>
+    <div class="card text-bg-warning mb-3" style="max-width: 100%;">
+        <div class="card-header">Q3 Answer</div>
+        <div class="card-body">
+            <h5 class="card-title text-uppercase">How EventLoop Work</h5><br>
+            <p class="card-text">The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+        </div>
+    </div>
+    <div class="card text-bg-info mb-3" style="max-width: 100%;">
+        <div class="card-header">Q4 Answer</div>
+        <div class="card-body">
+            <h5 class="card-title text-uppercase">8 Ways to get undefine</h5>
+            <p class="card-text">
+                <ol>
+                    <li>variable that is not initialized will give undefined,</li>
+                    <li>function with no return will give you undefined,</li>
+                    <li>parameter taht is not passed will be undefined,</li>
+                    <li>if return has nothing on the right side will return undefined,</li>
+                    <li>property that dosen't exists on an object will give you undefined,</li>
+                    <li>accessing array elements outside of the index range willl give you undefined,</li>
+                    <li>deleting an element inside an array will give undefined,</li>
+                    <li>set a value directly to undefined</li>
+                </ol>
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
